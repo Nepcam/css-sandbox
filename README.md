@@ -5,3 +5,6 @@ CSS Basics
 - CSS Basics
 - Implementing CSS
 - CSS Selectors
+
+18/07/2019
+- Learning about Dev Tools
