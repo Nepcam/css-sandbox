@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Float & Align</title>
   <style>
+    * {
+      box-sizing: border-box; 
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.4em;
@@ -14,6 +18,10 @@
     .container {
       max-width: 960px;
       margin: 30px auto;
+    }
+
+    .clr {
+      clear: both;
     }
 
     .box {
@@ -31,6 +39,16 @@
       text-align: justify;
     }
 
+    #box-2 {
+      float: left;
+      width: 68%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+
   </style>
 </head>
 <body>
@@ -39,7 +57,7 @@
   <h3>Heading One</h3>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde delectus saepe tempore reiciendis adipisci vero magnam dolorum nihil sapiente cumque, incidunt quos. Quisquam, amet dolore voluptatum ipsa consequuntur omnis.</p>
 </div>
-  <div id="box-" class="box">
+  <div id="box-2" class="box">
   <h3>Heading Two</h3>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde delectus saepe tempore reiciendis adipisci vero magnam dolorum nihil sapiente cumque, incidunt quos. Quisquam, amet dolore voluptatum ipsa consequuntur omnis.</p>
 </div>
@@ -47,6 +65,11 @@
   <h3>Heading Three</h3>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde delectus saepe tempore reiciendis adipisci vero magnam dolorum nihil sapiente cumque, incidunt quos. Quisquam, amet dolore voluptatum ipsa consequuntur omnis.</p>
 </div>
+<div class="clr"></div>
+<div id="box-4" class="box">
+    <h3>Heading Four</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde delectus saepe tempore reiciendis adipisci vero magnam dolorum nihil sapiente cumque, incidunt quos. Quisquam, amet dolore voluptatum ipsa consequuntur omnis.</p>
+  </div>
 </div>
 </body>
 </html>

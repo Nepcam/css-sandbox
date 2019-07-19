@@ -15,3 +15,6 @@ CSS Basics
 - background and borders
 - box models
 - float align
+
+20/07/2019
+- float align
