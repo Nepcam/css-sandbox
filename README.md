@@ -12,3 +12,6 @@ CSS Basics
 
 19/07/2019
 - Color Types
+- background and borders
+- box models
+- float align
