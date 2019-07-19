@@ -9,3 +9,6 @@ CSS Basics
 18/07/2019
 - Learning about Dev Tools
 - Fonts in CSS
+
+19/07/2019
+- Color Types
