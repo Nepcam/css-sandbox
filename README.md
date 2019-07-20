@@ -18,3 +18,9 @@ CSS Basics
 
 20/07/2019
 - float align
+- links and buttons
+- menus
+- inline block
+- position
+- form styling
+- visibility, order, negative margin
